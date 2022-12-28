@@ -19,7 +19,6 @@ Uma aplicação completa com NextJS
 ## Instalando as configurações do EsLint da RocketSeat
 - npm i @rocketseat/eslint-config -D
 
-
 ## Rodando o Next Lint
 - npm run lint
 
@@ -27,9 +26,32 @@ Uma aplicação completa com NextJS
 ### OBS: (--) antes do --fix (indica que a alteração será feita no Next Lint e não no NPM)
 - npm run lint -- --fix
 
+## Instalando a biblioteca de icones Phosfor-React
+- npm i phosphor-react
 
+## Instalando o Hook Forms
+- npm i react-hook-form @hookform/resolvers zod
 
+## API Routes (formas de ter Rotas BackEnd, dentro da aplicação FrontEnd)
+- routas('/api/hello)
 
+## Instalando o PRISMA
+- npm i prisma -D (CLI do prisma)
+- npm i @prisma/client (Lida com banco de dados)
+  - npx prisma init --datasource-provider SQLite (Inicia o prisma configurado com o SQLite)
+
+## Executando as Migrations no Prisma
+- npx prisma migrate dev
+
+## Interface para visualizaro banco de dados na web
+- npx prisma studio
+
+## Instalação do Axios
+- npm i axios
+
+## Instalando Nookies (Next Cookies)
+- npm i nookies
+  - npm i @types/cookie -D (Tipagens para funcionar o auto-complete do Nookies)
 
 
 
