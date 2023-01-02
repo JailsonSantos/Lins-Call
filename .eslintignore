@@ -1,0 +1,3 @@
+# Ignora o lint em todos os arquivos que terminam com .ts
+
+*.d.ts

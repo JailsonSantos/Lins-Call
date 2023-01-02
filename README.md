@@ -53,8 +53,23 @@ Uma aplicação completa com NextJS
 - npm i nookies
   - npm i @types/cookie -D (Tipagens para funcionar o auto-complete do Nookies)
 
+## Configurando o Google OAuth através do Google Cloud
+- https://console.cloud.google.com/apis/dashboard?pli=1&project=linsdriver-334418
+  - Criar um novo projeto
+  - Configurar as URls locais e redirecionamento
+  - Salvar as credenciais em arquivo .env
+  - Ativar Google Calendar API
 
+## Autenticação Next Auth
+- https://next-auth.js.org/getting-started/example (documentação)
 
+- npm install next-auth
+
+## Criando Adapters
+- https://next-auth.js.org/adapters/prisma
+
+## Tutorial
+- https://next-auth.js.org/tutorials/creating-a-database-adapter#how-to-create-an-adapter
 
 
 
