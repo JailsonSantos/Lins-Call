@@ -6,7 +6,7 @@ import { Button, Heading, MultiStep, Text } from '@ignite-ui/react'
 
 import { useRouter } from 'next/router'
 
-export default function Register() {
+export default function ConnectCalendar() {
   const session = useSession()
   console.log(session)
 
