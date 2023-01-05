@@ -81,7 +81,8 @@ Uma aplicação completa com NextJS
 ## Instalando o MYSQL com DOCKER
 - docker run --name mysql -e MYSQL_ROOT_PASSWORD=docker -p 3306:3306 mysql:latest
 
-
+## API do Google
+- npm i googleapis
 
 
 
