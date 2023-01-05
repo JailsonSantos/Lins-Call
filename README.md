@@ -71,9 +71,15 @@ Uma aplicação completa com NextJS
 ## Tutorial
 - https://next-auth.js.org/tutorials/creating-a-database-adapter#how-to-create-an-adapter
 
+## Trabalhando com datas 
+- npm i dayjs 
+  - https://day.js.org/docs/en/display/format (Documentation)
 
+## React Query
+- npm i @tanstack/react-query
 
-
+## Instalando o MYSQL com DOCKER
+- docker run --name mysql -e MYSQL_ROOT_PASSWORD=docker -p 3306:3306 mysql:latest
 
 
 
