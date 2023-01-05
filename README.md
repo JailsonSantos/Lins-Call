@@ -84,6 +84,15 @@ Uma aplicação completa com NextJS
 ## API do Google
 - npm i googleapis
 
+## Next SEO
+- npm i next-seo
+
+## Hospedagem
+- https://app.planetscale.com/
+
+## Executar todas as migrations do banco na URL de produção
+- npx prisma db push
+
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
