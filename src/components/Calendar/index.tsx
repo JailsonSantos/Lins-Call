@@ -1,9 +1,9 @@
-import { useQuery } from '@tanstack/react-query'
 import dayjs from 'dayjs'
-import { useRouter } from 'next/router'
-import { CaretLeft, CaretRight } from 'phosphor-react'
-import { useMemo, useState } from 'react'
 import { api } from '../../lib/axios'
+import { useRouter } from 'next/router'
+import { useMemo, useState } from 'react'
+import { useQuery } from '@tanstack/react-query'
+import { CaretLeft, CaretRight } from 'phosphor-react'
 import { getWeekDays } from '../../utils/get-week-days'
 import {
   CalendarActions,
